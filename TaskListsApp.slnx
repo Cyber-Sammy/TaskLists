@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TaskLists.Api/TaskLists.Api.csproj" />
+    <Project Path="src/TaskLists.Application/TaskLists.Application.csproj" />
+    <Project Path="src/TaskLists.Domain/TaskLists.Domain.csproj" />
+    <Project Path="src/TaskLists.Infrastructure.Mongo/TaskLists.Infrastructure.Mongo.csproj" />
+    <Project Path="src/TaskLists.SharedKernel/TaskLists.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TaskLists.Tests/TaskLists.Tests.csproj" />
+  </Folder>
+</Solution>
