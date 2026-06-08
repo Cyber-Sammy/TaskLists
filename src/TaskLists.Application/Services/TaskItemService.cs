@@ -12,7 +12,7 @@ using TaskLists.SharedKernel.Result;
 
 namespace TaskLists.Application.Services;
 
-internal class TaskItemService : ITaskItemService
+internal sealed class TaskItemService : ITaskItemService
 {
     private readonly ITaskItemRepository _taskItemRepository;
     private readonly ITaskItemMutator _taskItemMutator;

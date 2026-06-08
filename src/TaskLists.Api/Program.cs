@@ -1,7 +1,7 @@
-using Serilog;
-using Serilog.Events;
 using Microsoft.OpenApi;
 using Scalar.AspNetCore;
+using Serilog;
+using Serilog.Events;
 using System.Text.Json.Serialization;
 using TaskLists.Api.Constants;
 using TaskLists.Api.Extensions;
@@ -98,7 +98,7 @@ public class Program
         }
 
         app.UseAuthorization();
-        
+
         app.MapControllers();
 
         app.Run();

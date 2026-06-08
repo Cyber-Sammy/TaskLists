@@ -1,6 +1,6 @@
 ﻿namespace TaskLists.Application.Constants;
 
-public class SharedConstants
+internal static class SharedConstants
 {
     public const int MinPage = 1;
     public const int MinPageSize = 1;

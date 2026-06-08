@@ -93,7 +93,7 @@ Usage example:
 import { TaskListsApiProvider } from '@task-lists/api-provider';
 
 const api = new TaskListsApiProvider({
-  baseUrl: 'https://localhost:7000',
+  baseUrl: 'https://localhost:7001',
   currentUserId: '00000000-0000-0000-0000-000000000000',
   correlationIdFactory: () => crypto.randomUUID(),
 });

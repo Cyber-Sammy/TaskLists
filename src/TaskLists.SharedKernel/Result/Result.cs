@@ -81,7 +81,6 @@ public class Result
     {
         return new Result(status, errors);
     }
-
 }
 
 public sealed class Result<T> : Result

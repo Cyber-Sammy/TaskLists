@@ -27,11 +27,6 @@ public class User : Entity
         return new User(id, displayName, createdAt);
     }
 
-    internal void Rename(string? displayName)
-    {
-        DisplayName = displayName;
-    }
-
     private static string? NormalizeOptional(string? value)
     {
         return string.IsNullOrWhiteSpace(value)

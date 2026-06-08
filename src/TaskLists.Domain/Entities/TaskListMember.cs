@@ -61,8 +61,4 @@ public class TaskListMember : Entity
         return new TaskListMember(id, taskListId, memberUserId, role, createdAt, createdByUserId);
     }
 
-    internal void ChangeRole(TaskListMemberRole role)
-    {
-        Role = role;
-    }
 }

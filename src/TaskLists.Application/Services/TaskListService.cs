@@ -11,7 +11,7 @@ using TaskLists.SharedKernel.Result;
 
 namespace TaskLists.Application.Services;
 
-internal class TaskListService : ITaskListService
+internal sealed class TaskListService : ITaskListService
 {
     private readonly ITaskListMemberRepository _taskListMemberRepository;
     private readonly ITaskItemRepository _taskItemRepository;

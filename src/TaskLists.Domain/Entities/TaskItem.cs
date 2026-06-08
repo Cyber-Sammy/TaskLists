@@ -88,18 +88,6 @@ public class TaskItem : TitledEntity
             updatedAt);
     }
 
-    internal void Rename(string title, DateTimeOffset updatedAt)
-    {
-        Title = title;
-        UpdatedAt = updatedAt;
-    }
-
-    internal void ChangeDescription(string? description, DateTimeOffset updatedAt)
-    {
-        Description = description;
-        UpdatedAt = updatedAt;
-    }
-
     internal void Update(string title, string? description, DateTimeOffset updatedAt)
     {
         var validatedTitle = ValidateTitle(title);

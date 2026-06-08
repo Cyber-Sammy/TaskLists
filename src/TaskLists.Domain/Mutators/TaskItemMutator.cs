@@ -19,11 +19,6 @@ public sealed class TaskItemMutator : ITaskItemMutator
         return Mutate(taskItem, (item, updatedAt) => item.Complete(updatedAt));
     }
 
-    public Result Rename(TaskItem taskItem, string title)
-    {
-        return Mutate(taskItem, (item, updatedAt) => item.Rename(title, updatedAt));
-    }
-
     public Result Reopen(TaskItem taskItem)
     {
         return Mutate(taskItem, (item, updatedAt) => item.Reopen(updatedAt));

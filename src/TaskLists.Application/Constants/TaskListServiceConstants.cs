@@ -1,6 +1,6 @@
 namespace TaskLists.Application.Constants;
 
-internal class TaskListServiceConstants
+internal static class TaskListServiceConstants
 {
     public const string UserAlreadyMember = "User is already a member of this task list.";
     public const string TaskListWasNotFound = "Task list was not found.";
@@ -9,5 +9,4 @@ internal class TaskListServiceConstants
     public const string OnlyOwnerCanDeleteTaskList = "Only owner can delete this task list.";
     public const string OwnerCannotBeRemoved = "Owner cannot be removed from task list members.";
     public const string MemberWasNotFound = "Task list member was not found.";
-    public const string MembersWereNotFound = "Task list members were not found.";
 }
